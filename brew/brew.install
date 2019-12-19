@@ -1,0 +1,27 @@
+20191219
+install: pass, expect, keychain
+
+use keychain to load ssh key when login
+== >pass
+Bash completion has been installed to:
+/usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+/usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+/usr/local/share/emacs/site-lisp/pass
+
+20191220
+install: tig
+
+A sample of the default configuration has been installed to:
+/usr/local/opt/tig/share/tig/examples/tigrc
+to override the system-wide default configuration, copy the sample to:
+/usr/local/etc/tigrc
+
+Bash completion has been installed to:
+/usr/local/etc/bash_completion.d
+
+zsh completions and functions have been installed to:
+/usr/local/share/zsh/site-functions
