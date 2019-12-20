@@ -25,3 +25,22 @@ Bash completion has been installed to:
 
 zsh completions and functions have been installed to:
 /usr/local/share/zsh/site-functions
+
+install mutt:
+
+mutt_dotlock(1) has been installed, but does not have the permissions lock
+spool files in /var/mail. To grant the necessary permissions, run
+
+  sudo chgrp mail /usr/local/opt/mutt/bin/mutt_dotlock
+  sudo chmod g+s /usr/local/opt/mutt/bin/mutt_dotlock
+
+Alternatively, you may configure `spoolfile` in your .muttrc to a file inside
+your home directory.
+install httpie jump terjira lnav aria2 hub
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+install scm-breeze
